@@ -14,12 +14,12 @@ class Dog
      @@all =[] 
    end 
    
-   def
+   def 
      @@all.each do |dog|
        puts dog.name 
      end 
    end 
    def
-     @@self.print_all 
+     
    end 
  end
