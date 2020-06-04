@@ -2,8 +2,8 @@ class Dog
   @@all =[]
   
   
-  def initialize=(new_dog)
-    @new_dog = new_dog
+  def initialize=(name)
+    @name = name
      self.save
   end 
    def self.all 
