@@ -5,10 +5,10 @@ class Dog
   
   def initialize=(new_dog)
     @new_dog = new_dog
-    @@all << self 
+    @@all << self.save
   end 
    
    def self 
      @@self.print_all 
    end 
-   
+ end
