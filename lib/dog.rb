@@ -1,14 +1,17 @@
 class Dog 
   @@all =[]
   
-  attr_accessor :new_dog
   
   def initialize=(new_dog)
     @new_dog = new_dog
-    @@all << self.save
+     self.save
   end 
+   def self.all 
+     @@all 
+   end 
    
-   def self 
+   def self.clear_all 
+     @@all.each do 
      @@self.print_all 
    end 
  end
