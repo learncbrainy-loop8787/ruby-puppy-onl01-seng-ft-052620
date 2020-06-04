@@ -1,3 +1,6 @@
 class Dog 
   @@all =[]
-  def initialize=()
+  def initialize=(new_dog)
+    @new_dog = new_dog
+  end 
+  
